@@ -10,7 +10,7 @@ using Google.Apis.Calendar.v3.Data;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 
-namespace Projekt_Piwowar
+namespace Biblioteka_Klas_Piwowar
 {
     
 

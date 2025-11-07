@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Projekt_Piwowar
+namespace Biblioteka_Klas_Piwowar
 {
     public enum EtapWarki
     {
@@ -60,50 +60,50 @@ namespace Projekt_Piwowar
             Czy_Na_minus = czy_Na_minus;
         }
 
-        public static void Aktualizacja_Etapu()
-        {
-            foreach(Warka warka in ListaWarek)
-            {
-                if(warka.Etap==EtapWarki.Zarchiwizowane)
-                {
-                    break;
-                }
-                else
-                {
-                    if(warka.Etap == EtapWarki.Planowanie && warka.DataWarzenia<DateOnly.FromDateTime(DateTime.Now))
-                    {
-                        Aktualiacja_etapu aktualiacja_Etapu = new(warka);
-                        aktualiacja_Etapu.ShowDialog();
-                        if(aktualiacja_Etapu.DialogResult==DialogResult.Yes)
-                        {
-                            warka.Etap = EtapWarki.Fermentacja;
-                        }
+        //public static void Aktualizacja_Etapu()
+        //{
+        //    foreach(Warka warka in ListaWarek)
+        //    {
+        //        if(warka.Etap==EtapWarki.Zarchiwizowane)
+        //        {
+        //            break;
+        //        }
+        //        else
+        //        {
+        //            if(warka.Etap == EtapWarki.Planowanie && warka.DataWarzenia<DateOnly.FromDateTime(DateTime.Now))
+        //            {
+        //                Aktualiacja_etapu aktualiacja_Etapu = new(warka);
+        //                aktualiacja_Etapu.ShowDialog();
+        //                if(aktualiacja_Etapu.DialogResult==DialogResult.Yes)
+        //                {
+        //                    warka.Etap = EtapWarki.Fermentacja;
+        //                }
                         
                         
-                    }
-                    else if (warka.Etap == EtapWarki.Fermentacja && warka.DataButelkowania < DateOnly.FromDateTime(DateTime.Now))
-                    {
-                        Aktualiacja_etapu aktualiacja_Etapu = new(warka);
-                        aktualiacja_Etapu.ShowDialog();
-                        if (aktualiacja_Etapu.DialogResult == DialogResult.Yes)
-                        {
-                            warka.Etap = EtapWarki.Nagazowanie;
-                        }
-                    }
-                    else if (warka.Etap == EtapWarki.Nagazowanie && warka.DataGotowe < DateOnly.FromDateTime(DateTime.Now))
-                    {
-                        Aktualiacja_etapu aktualiacja_Etapu = new(warka);
-                        aktualiacja_Etapu.ShowDialog();
-                        if (aktualiacja_Etapu.DialogResult == DialogResult.Yes)
-                        {
-                            warka.Etap = EtapWarki.Gotowe;
-                        }
-                    }
-                }
+        //            }
+        //            else if (warka.Etap == EtapWarki.Fermentacja && warka.DataButelkowania < DateOnly.FromDateTime(DateTime.Now))
+        //            {
+        //                Aktualiacja_etapu aktualiacja_Etapu = new(warka);
+        //                aktualiacja_Etapu.ShowDialog();
+        //                if (aktualiacja_Etapu.DialogResult == DialogResult.Yes)
+        //                {
+        //                    warka.Etap = EtapWarki.Nagazowanie;
+        //                }
+        //            }
+        //            else if (warka.Etap == EtapWarki.Nagazowanie && warka.DataGotowe < DateOnly.FromDateTime(DateTime.Now))
+        //            {
+        //                Aktualiacja_etapu aktualiacja_Etapu = new(warka);
+        //                aktualiacja_Etapu.ShowDialog();
+        //                if (aktualiacja_Etapu.DialogResult == DialogResult.Yes)
+        //                {
+        //                    warka.Etap = EtapWarki.Gotowe;
+        //                }
+        //            }
+        //        }
 
-            }
-            Warka.Zapisz();
-        }
+        //    }
+        //    Zapisz();
+        //}
 
 
 

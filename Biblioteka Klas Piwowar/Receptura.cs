@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Projekt_Piwowar
+namespace Biblioteka_Klas_Piwowar
 {
     public class Receptura
     {
@@ -50,7 +50,7 @@ namespace Projekt_Piwowar
 
         public static double BlgToGravity(double blg)
         {
-            return 1 + (blg / (258.6 - ((blg / 258.2) * 227.1)));
+            return 1 + blg / (258.6 - blg / 258.2 * 227.1);
         }
 
 

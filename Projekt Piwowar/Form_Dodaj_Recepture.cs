@@ -1,4 +1,5 @@
-﻿using Projekt_Piwowar.Properties;
+﻿using Biblioteka_Klas_Piwowar;
+using Projekt_Piwowar.Properties;
 
 namespace Projekt_Piwowar
 {

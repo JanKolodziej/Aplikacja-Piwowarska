@@ -1,7 +1,10 @@
 ﻿using System.Diagnostics;
 
-namespace Projekt_Piwowar
-{
+namespace Biblioteka_Klas_Piwowar
+{ 
+    /// <summary>
+    /// 
+    /// </summary>
     public class Chmiel
     {
         public string Nazwa { get; set; }
@@ -15,7 +18,9 @@ namespace Projekt_Piwowar
             AlfaKwasy = alfa;
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
         public static void WczytajChmiel()
         {
 

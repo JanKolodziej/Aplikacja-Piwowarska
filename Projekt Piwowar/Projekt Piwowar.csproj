@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Apis.Calendar.v3" Version="1.69.0.3746" />
+    <ProjectReference Include="..\Biblioteka Klas Piwowar\Biblioteka Klas Piwowar.csproj" />
   </ItemGroup>
 
   <ItemGroup>

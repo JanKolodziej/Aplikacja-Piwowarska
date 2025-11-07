@@ -1,4 +1,6 @@
-﻿namespace Projekt_Piwowar
+﻿using System.Drawing;
+
+namespace Biblioteka_Klas_Piwowar
 {
     public static class EBCtoRGB
     {

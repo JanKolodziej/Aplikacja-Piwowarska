@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36121.58 d17.14
+VisualStudioVersion = 17.14.36121.58
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt Piwowar", "Projekt Piwowar.csproj", "{80CECB37-1592-47C8-959A-0EC64EEAE6BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt Piwowar", "Projekt Piwowar\Projekt Piwowar.csproj", "{2E956838-6A3B-7A44-4860-3DA5FCA76514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteka Klas Piwowar", "Biblioteka Klas Piwowar\Biblioteka Klas Piwowar.csproj", "{C080A79F-DE54-0D71-D2CB-D5A2C93A7514}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{80CECB37-1592-47C8-959A-0EC64EEAE6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80CECB37-1592-47C8-959A-0EC64EEAE6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80CECB37-1592-47C8-959A-0EC64EEAE6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80CECB37-1592-47C8-959A-0EC64EEAE6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E956838-6A3B-7A44-4860-3DA5FCA76514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E956838-6A3B-7A44-4860-3DA5FCA76514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E956838-6A3B-7A44-4860-3DA5FCA76514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E956838-6A3B-7A44-4860-3DA5FCA76514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C080A79F-DE54-0D71-D2CB-D5A2C93A7514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C080A79F-DE54-0D71-D2CB-D5A2C93A7514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C080A79F-DE54-0D71-D2CB-D5A2C93A7514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C080A79F-DE54-0D71-D2CB-D5A2C93A7514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
-﻿namespace Projekt_Piwowar
+﻿using Biblioteka_Klas_Piwowar;
+
+namespace Projekt_Piwowar
 {
     public partial class Form_Dodawanie_Chmielu : Form
     {

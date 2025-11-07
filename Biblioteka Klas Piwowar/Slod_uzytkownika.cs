@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Projekt_Piwowar
+namespace Biblioteka_Klas_Piwowar
 {
     /// <summary>
     /// Slod z waga i cena

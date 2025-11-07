@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using Biblioteka_Klas_Piwowar;
+using System.Windows.Forms;
 
 namespace Projekt_Piwowar
 {
@@ -13,7 +14,7 @@ namespace Projekt_Piwowar
             Dodaj_slody_do_tabeli();
             Dodaj_chmiele_do_tabeli();
             Dodaj_drozdze_do_tabeli();
-            Warka.Aktualizacja_Etapu();
+            //Warka.Aktualizacja_Etapu();
 
 
 

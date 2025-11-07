@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projekt_Piwowar
+namespace Biblioteka_Klas_Piwowar
 {
     public class Styl
     {
