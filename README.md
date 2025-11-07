@@ -1,7 +1,7 @@
 
 # 🍺 Projekt Piwowar
 
-**Piwowar** is a Windows desktop application built with **C# / .NET (WinForms)** that helps homebrewers manage ingredients, create beer recipes, and track brewing batches.
+**Projekt Piwowar** is a Windows desktop application built with **C# / .NET (WinForms)** that helps homebrewers manage ingredients, create beer recipes, and track brewing batches.
 
 The application supports full ingredient stock tracking (grains, hops, yeast), recipe creation, and brewing batch logging — including automatic beer parameter calculations:
 
@@ -28,23 +28,9 @@ The application supports full ingredient stock tracking (grains, hops, yeast), r
 ## 🧠 Architecture
 
 ```
-📁 Piwowar
- ├── Models/
- │    ├── Malt.cs            // Grain ingredient
- │    ├── Hop.cs             // Hop ingredient (with alpha acid values)
- │    ├── Yeast.cs           // Yeast ingredient
- │    ├── Recipe.cs          // Beer recipe
- │    └── Batch.cs           // Brewing batch (Warka)
- │
- ├── Services/
- │    ├── BlgCalculator.cs   // Extract / gravity calculations
- │    ├── IbuCalculator.cs   // Bitterness calculations (Tinseth)
- │    └── EbcCalculator.cs   // Color calculations
- │
- └── Forms/
-      ├── RecipeForm.cs      // UI: recipe builder
-      ├── BatchForm.cs       // UI: batch creation
-      └── InventoryForm.cs   // UI: ingredient storage
+📁 Proejkt Piwowar
+ ├── Biblioteka Klas Piwowar  //Class lib
+ └── Projekt Piwowar          //All the forms
 ```
 
 ---
