@@ -15,7 +15,7 @@ The application supports full ingredient stock tracking (grains, hops, yeast), r
 
 - 🏪 **Ingredient inventory management** (malt, hops, yeast)
 - 🧾 **Recipe builder** — create and edit beer brewing recipes
-- 🍺 **Batch creation ** — generate brewing batches from recipes
+- 🍺 **Batch creation** — generate brewing batches from recipes
 - 💾 **Persistent data storage** — all items remain saved between sessions
 - 📋 **List views** for recipes and batches
 - 🧮 Automatic brewing calculations:
