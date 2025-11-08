@@ -2,7 +2,7 @@
 # 🍺 Projekt Piwowar
 
 **Projekt Piwowar** is a Windows desktop application built with **C# / .NET (WinForms)** that helps homebrewers manage ingredients, create beer recipes, and track brewing batches.
-
+**The project was created as part of my learning process with .NET and C#. The code is still a work in progress — I am planning refactoring, separation of responsibilities into proper layers, and adding unit tests.**
 The application supports full ingredient stock tracking (grains, hops, yeast), recipe creation, and brewing batch logging — including automatic beer parameter calculations:
 
 - °BLG (extract)
